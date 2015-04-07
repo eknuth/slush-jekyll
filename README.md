@@ -9,7 +9,7 @@ This slush generator creates jekyll blog posts from the command line. Slush asks
 and stubs out the post in ./_posts/YYYY/YYYY-MM-DD-slugified-title.md.
 
 ```bash
-slush jekyll 10 Ways to Generate Code
+slush jekyll
 ```
 
 ## Getting Started
@@ -26,6 +26,12 @@ Run the generator from within your blog folder:
 
 ```bash
 slush jekyll
+```
+
+The slushfile also takes the title from the command line.
+
+```bash
+slush jekyll 10 Ways to Generate Code
 ```
 
 ## Getting To Know Slush
