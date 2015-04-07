@@ -1,28 +1,31 @@
-# Slush Slush-jeyll [![Build Status](https://secure.travis-ci.org/tiatia/slush-slush-jeyll.png?branch=master)](https://travis-ci.org/tiatia/slush-slush-jeyll) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-slush-jeyll.png)](http://badges.enytc.com/for/npm/slush-slush-jeyll)
+# Slush Jekyll
+<!-- [![Build Status](https://secure.travis-ci.org/eknuth/slush-jekyll.png?branch=master)](https://travis-ci.org/eknuth/slush-jekyll) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-jeyll.png)](http://badges.enytc.com/for/npm/slush-slush-jeyll) -->
 
 > Slush scaffolding of jekyll sites
 
+## Usage
+
+This slush generator creates jekyll blog posts from the command line. Slush asks a few questions
+and stubs out the post in ./_posts/YYYY/YYYY-MM-DD-slugified-title.md.
+
+```bash
+slush jekyll 10 Ways to Generate Code
+```
 
 ## Getting Started
 
-Install `slush-slush-jeyll` globally:
+Install `slush-jeyll` globally:
 
 ```bash
-$ npm install -g slush-slush-jeyll
+$ npm install -g slush-jekyll
 ```
 
 ### Usage
 
-Create a new folder for your project:
+Run the generator from within your blog folder:
 
 ```bash
-$ mkdir my-slush-slush-jeyll
-```
-
-Run the generator from within the new folder:
-
-```bash
-$ cd my-slush-slush-jeyll && slush slush-jeyll
+slush jekyll
 ```
 
 ## Getting To Know Slush
@@ -35,12 +38,12 @@ To find out more about Slush, check out the [documentation](https://github.com/s
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/tiatia/slush-slush-jeyll/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/eknuth/slush-jekyll/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/tiatia/slush-slush-jeyll/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/eknuth/slush-jekyll/issues).
 
-## License 
+## License
 
 The MIT License
 

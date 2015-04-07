@@ -1,4 +1,4 @@
-# Contributing to slush-jeyll
+# Contributing to slush-jekyll
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
@@ -93,11 +93,11 @@ project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/slush-slush-jeyll
+   git clone https://github.com/<your-username>/slush-jekyll
    # Navigate to the newly cloned directory
-   cd slush-slush-jeyll
+   cd slush-jekyll
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/tiatia/slush-slush-jeyll
+   git remote add upstream https://github.com/eknuth/slush-jekyll
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
