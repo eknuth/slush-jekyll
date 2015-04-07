@@ -1,0 +1,45 @@
+{
+  "name": "slush-jekyll",
+  "description": "Slush scaffolding of jekyll sites",
+  "version": "0.1.0",
+  "homepage": "https://github.com/eknuth/slush-jekyll",
+  "author": {
+    "name": "Edwin Knuth",
+    "email": "eknuth@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eknuth/slush-jekyll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eknuth/slush-jekyll/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/eknuth/slush-jekyll/blob/master/LICENSE"
+    }
+  ],
+  "main": "slushfile.js",
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "gulp": "^3.6.2",
+    "gulp-conflict": "^0.1.1",
+    "gulp-install": "^0.1.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-template": "^0.1.1",
+    "inquirer": "^0.8.0",
+    "moment": "2.9.0",
+    "slush": ">=1.0.0",
+    "string": "3.1.1"
+  },
+  "keywords": [
+    "slushgenerator"
+  ]
+}
