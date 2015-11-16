@@ -10,10 +10,10 @@ var gulp = require('gulp'),
 
 gulp.task('post', function (done) {
   var now = moment();
-  var dirname, basename, prefix, extname = ".md";
+  var dirname, basename, prefix, extname = '.md';
   inquirer.prompt([
     {type: 'list', name: 'type', message: 'Type of post', choices: ['Post', 'Draft']},
-    {type: 'input', name: 'title', message: 'Title of post'},
+    {type: 'input', name: 'title', message: 'Title of post', default: gulp.args.join(' ')},
     {type: 'input', name: 'description', message: 'Description of post'},
     {type: 'confirm', name: 'moveon', message: 'Continue?'}
   ],
@@ -31,7 +31,6 @@ gulp.task('post', function (done) {
       dirname = '_drafts/' + now.year();
       basename = S(answers.title).slugify();
       prefix = '';
-      extname = '.md';
     }
     gulp.src(__dirname + '/templates/post.html')
       .pipe(template(answers))
